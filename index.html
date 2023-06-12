@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
+    <title>Guess the word</title>
+    
+</head>
+<body>
+    <header>
+        <nav>Guess the word game!</nav>
+    </header>
+    <main>
+        <div class="splash">
+            <h1 class="fade-in">GUESS THE WORD GAME</h1>
+        </div>
+        <div class="main">
+            <h1>GUESS THE WORD:</h1>
+            <h1 class="displayWord"></h1> 
+        </div> 
+        <div class="main">
+            <h2>YOUR LETTER:</h2>
+            <form class="myForm">
+                <input type="text" id="myInput" maxlength="1" required>
+            </form>
+            <!-- <button type="button">Reset game</button> -->
+        </div> 
+        
+
+    </main>
+
+    <script type="module" src="./script.js"></script>
+</body>
+</html>

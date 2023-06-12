@@ -1,0 +1,31 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+
+ body {
+    margin: 0;
+    height: 100vh;
+}
+
+header {
+    background: rgb(237, 237, 237);
+     display: flex;
+     padding: 1em 0;
+     justify-content: center;
+     align-items: center;
+}
+
+.main {
+    display: flex;
+     padding: 1em 0;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     flex-wrap: wrap;
+}
+
+#myInput {
+    width:40px;
+}
